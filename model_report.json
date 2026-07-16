@@ -1,0 +1,13 @@
+{
+  "training_date": "2026-07-16 16:27:17.448793",
+  "dataset": {
+    "patients": 2000,
+    "trials": 41,
+    "patient_trial_combinations": 82000
+  },
+  "models": {
+    "trial_success": "GradientBoostingClassifier (50 estimators, max_depth=4)",
+    "completion_risk": "GradientBoostingClassifier (50 estimators, max_depth=4) + StandardScaler",
+    "compatibility": "GradientBoostingClassifier (50 estimators, max_depth=4)"
+  }
+}
